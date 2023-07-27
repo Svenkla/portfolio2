@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(27, 27, 27);
+}
+
+@media only screen and (min-width: 770px) {
+  .footer {
+    opacity: 0;
+    width: 0;
+  }
+
+  .home {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link img {
+    margin-bottom: 5px;
+  }
+
+  .link.active {
+    display: flex;
+    animation-name: spin;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    width: 90%;
+    margin: 120px auto 0 auto;
+  }
+
+  .info-text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    font-size: 20px;
+  }
+
+  .info-text h1 {
+    color: white;
+  }
+
+  .info-text h3 {
+    color: rgb(56, 56, 255);
+    margin: 10px 0;
+  }
+
+  .info-text p {
+    color: white;
+  }
+
+  .info-slika img {
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+  }
+
+  /*     ABOUT     */
+  .about {
+    width: 86%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    margin: 110px auto 0 auto;
+  }
+
+  .abouth4 {
+    display: none;
+  }
+
+  .about-text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 45%;
+  }
+
+  .about-images ul {
+    list-style: none;
+    display: flex;
+    margin: 45px 0;
+    gap: 45px;
+  }
+
+  .about-images img {
+    width: 85px;
+  }
+
+  /*     SKILLS       */
+
+  .graf {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .custom-tooltip {
+    color: white;
+    padding: 20px;
+  }
+
+  .graf2 {
+    display: none;
+  }
+
+  /*     PROJECTS     */
+  .projects {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px auto -100px auto;
+    gap: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .projectsh4 {
+    display: none;
+  }
+  .project-card {
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+  }
+
+  .project-card img {
+    width: 400px;
+  }
+
+  /*   CONTACT   */
+  .contact {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px auto 0 auto;
+    color: white;
+    justify-content: center;
+    gap: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .contacth4 {
+    display: none;
+  }
+
+  .isto {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto 15px auto;
+    justify-content: center;
+  }
+
+  .contact-card p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact-spodaj {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 130px auto 0 auto;
+  }
+}
