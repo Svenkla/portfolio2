@@ -90,17 +90,18 @@
 
   .info-slika img {
     width: 200px;
-    margin-top: 20px;
     padding-bottom: 85px;
     border-radius: 20px;
+    display: flex;
+    margin: 20px auto 0 auto;
   }
 
   /*     ABOUT     */
 
   .about {
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     margin: 40px auto 50px auto;
     color: white;
   }
