@@ -21,63 +21,44 @@ const Skills = () => {
       pv: 80,
     },
     {
-      name: "React",
-      pv: 70,
-    },
-    {
       name: "JavaScript",
-      pv: 60,
+      pv: 70,
     },
     {
       name: "TypeScript",
-      pv: 55,
-    },
-    {
-      name: "Python",
-      pv: 30,
-    },
-    {
-      name: "C++",
-      pv: 50,
-    },
-    {
-      name: "NextJs",
       pv: 60,
-    },
-  ];
-
-  const data2 = [
-    {
-      name: "HTML",
-      pv: 80,
-    },
-    {
-      name: "CSS",
-      pv: 80,
     },
     {
       name: "React",
-      pv: 70,
+      pv: 80,
     },
     {
-      name: "JS",
+      name: "NextJs",
       pv: 60,
     },
     {
-      name: "TS",
-      pv: 55,
+      name: "NodeJs",
+      pv: 50,
     },
     {
-      name: "Py",
-      pv: 30,
+      name: "PHP",
+      pv: 40,
+    },
+    {
+      name: "MySQL/MongoDB",
+      pv: 50,
+    },
+    {
+      name: "Python",
+      pv: 50,
     },
     {
       name: "C++",
       pv: 50,
     },
     {
-      name: "NextJs",
-      pv: 60,
+      name: "C",
+      pv: 30,
     },
   ];
 
@@ -102,7 +83,7 @@ const Skills = () => {
       </div>
 
       <div className="graf">
-        <BarChart width={800} height={500} data={data} barSize={60}>
+        <BarChart width={1300} height={500} data={data} barSize={60}>
           <XAxis
             dataKey="name"
             scale="point"
@@ -119,7 +100,6 @@ const Skills = () => {
           layout="vertical"
           width={380}
           height={450}
-          data={data2}
           margin={{
             top: 20,
             right: 20,

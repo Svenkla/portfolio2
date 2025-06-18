@@ -24,15 +24,14 @@ const About = () => {
       <div className="about">
         <div className="about-text">
           <div>
-            I recently completed a computer engineering program in Maribor,
-            Slovenia, and I'm thrilled to be a junior Front-End developer.
+            I recently completed a computer engineering high school in Maribor,
+            Slovenia, and I'm thrilled to be a computer enginner.
           </div>
           <br />
           <div>
             I'm known for being well-organized, hardworking, and always getting
-            things done on time. I enjoy tackling challenges head-on. I
-            genuinely love programming, and it's not just a job for me-it's a
-            passion that drives me to constantly learn and improve.
+            things done on time. I enjoy tackling challenges head-on. I'm
+            interesting in programming, especially web development.
           </div>
           <br />
           <div>
@@ -43,17 +42,17 @@ const About = () => {
           </div>
           <br />
           <div>
-            I have a strong interest in Front-End technologies and I'm
+            I have a strong interest in computer technologies and I'm
             continuously expanding my skills by working on different projects. I
             believe in the power of lifelong learning and staying up-to-date
             with the latest trends and advancements in the field.
           </div>
           <br />
           <div>
-            In summary, I'm an enthusiastic Front-End developer who is committed
-            to creating amazing user experiences. With my dedication,
-            problem-solving mindset, and a love for continuous learning, I'm
-            eager to take on new challenges and contribute to exciting projects.
+            In summary, I'm an enthusiastic Full-Stack developer who is
+            committed to creating amazing user experiences. I'm driven by
+            curiosity and a proactive mindset, always ready to tackle challenges
+            and grow through every experience.
           </div>
         </div>
 

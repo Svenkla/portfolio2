@@ -10,13 +10,15 @@ const Home = () => {
       <div className="info">
         <div className="info-text">
           <h1>Hi, I'm Sven Pliberšek</h1>
-          <h3>Frontend Developer</h3>
+          <h3>Full-Stack Developer</h3>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse
-            culpa ipsa architecto sunt, numquam unde possimus, fugit harum
-            deleniti, distinctio reiciendis facilis dolores laborum hic
-            dignissimos illum sit provident.
+            I am a computer science student with a strong interest in software
+            development and full-stack web development. I have hands-on
+            experience with various programming languages and enjoy building
+            functional and user-friendly web applications. I have already
+            completed several personal projects, which you can find on my
+            portfolio (Projects).
           </p>
         </div>
 
